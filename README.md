@@ -3,6 +3,10 @@ a lighter version of https://github.com/dropbox/json11
 
 dropping the requirement of C++11
 
+## compile
+```
+mkdir -p _buld && cd _build && cmake ../ && make && ./wnjson && cd ..
+```
 
 ## example
 
