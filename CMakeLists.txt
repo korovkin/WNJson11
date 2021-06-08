@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.2)
 project (wnjson11)
 
-add_definitions(-std=c++11)
+add_definitions(-std=c++14)
 add_definitions(-Wall)
 
 set(SOURCES
@@ -26,7 +26,7 @@ target_include_directories(
 
 target_link_libraries(
   wnjson
-  /usr/local/lib/libglog.a
-  /usr/local/lib/libgflags.a
+  -lglog
+  -lgflags
 )
 

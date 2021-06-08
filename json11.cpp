@@ -19,12 +19,14 @@
  * THE SOFTWARE.
  */
 
-#include "json11.hpp"
-#include <cassert>
-#include <cmath>
 #include <cstdio>
 #include <cstdlib>
+#include <cassert>
+#include <cmath>
+#include <climits>
 #include <limits>
+
+#include "json11.hpp"
 
 namespace json11 {
 
